@@ -40,9 +40,9 @@
 #' @source \url{https://mesonet.agron.iastate.edu/request/coop/fe.phtml}
 "wea_ames_2019"
 
-#' Historical weather data (1990-2019) in Ames, Burlington, and Sioux City Iowa
+#' Historical weather data (1990-2019) in Burlington and Sioux City Iowa
 #'
-#' A dataset with weather data for three sites in Iowa as downloaded from the Iowa Mesonet NWSCoop network.
+#' A dataset with weather data for two sites in Iowa as downloaded from the Iowa Mesonet NWSCoop network.
 #'
 #' @format A data frame with 21,914 rows and 10 variables:
 #' \describe{
@@ -59,4 +59,4 @@
 #'   ...
 #' }
 #' @source \url{https://mesonet.agron.iastate.edu/request/coop/fe.phtml}
-"wea_3sites_30yrs"
+"wea_2sites_30yrs"
