@@ -25,7 +25,7 @@ The goal of rgronomists is to provide easy access to agriculture-related data.
 You can install the developmental version of rgronomists from [github](https://CRAN.R-project.org) with:
 
 ``` r
-#devtools::install_github("vanichols/rgronomists")
+devtools::install_github("vanichols/rgronomists")
 ```
 
 ## Examples
@@ -34,12 +34,6 @@ You can get easy access to weather data the is available on the [Iowa Mesonet's 
 
 ```{r wea}
 #library(rgronomists)
-## wea_ames_30yrs
-```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
+wea_ames_30yrs
 ```
 
