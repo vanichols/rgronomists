@@ -1,0 +1,44 @@
+---
+output: github_document
+---
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# rgronomists
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of rgronomists is to provide easy access to agriculture-related data.
+
+## Installation
+
+You can install the developmental version of rgronomists from [github](https://CRAN.R-project.org) with:
+
+``` r
+#devtools::install_github("vanichols/rgronomists")
+```
+
+## Examples
+
+You can get easy access to weather data the is available on the [Iowa Mesonet's NWS Cooperative Network Page](https://mesonet.agron.iastate.edu/COOP/)
+
+```{r wea}
+#library(rgronomists)
+## wea_ames_30yrs
+```
+
+What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+
+```{r cars}
+summary(cars)
+```
+
