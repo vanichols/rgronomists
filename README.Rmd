@@ -33,7 +33,7 @@ devtools::install_github("vanichols/rgronomists")
 You can get easy access to weather data the is available on the [Iowa Mesonet's NWS Cooperative Network Page](https://mesonet.agron.iastate.edu/COOP/)
 
 ```{r wea}
-#library(rgronomists)
-wea_ames_30yrs
+library(rgronomists)
+head(wea_ames_30yrs)
 ```
 

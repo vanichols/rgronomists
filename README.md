@@ -3,6 +3,8 @@
 
 <!-- badges: start -->
 
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
 The goal of rgronomists is to provide easy access to agriculture-related
@@ -14,7 +16,7 @@ You can install the developmental version of rgronomists from
 [github](https://CRAN.R-project.org) with:
 
 ``` r
-#devtools::install_github("vanichols/rgronomists")
+devtools::install_github("vanichols/rgronomists")
 ```
 
 ## Examples
@@ -24,20 +26,13 @@ Mesonet’s NWS Cooperative Network
 Page](https://mesonet.agron.iastate.edu/COOP/)
 
 ``` r
-#library(rgronomists)
-## wea_ames_30yrs
-```
-
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
-
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
+library(rgronomists)
+head(wea_ames_30yrs)
+#>   station station_name   lat   lon        day doy high low precip merra_srad
+#> 1  IA0200   AMES-8-WSW 42.03 -93.8 1990-01-01   1   31   8  1e-04   9.052971
+#> 2  IA0200   AMES-8-WSW 42.03 -93.8 1990-01-02   2   46  15  0e+00   8.913604
+#> 3  IA0200   AMES-8-WSW 42.03 -93.8 1990-01-03   3   45  25  0e+00   5.822147
+#> 4  IA0200   AMES-8-WSW 42.03 -93.8 1990-01-04   4   40  20  1e-04   9.170444
+#> 5  IA0200   AMES-8-WSW 42.03 -93.8 1990-01-05   5   44  13  0e+00   8.864169
+#> 6  IA0200   AMES-8-WSW 42.03 -93.8 1990-01-06   6   40  14  0e+00   9.075016
 ```
